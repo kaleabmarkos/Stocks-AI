@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {"tag": "plot_chart",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Plotting Chart"],
+      "context_set": ""
+    },
+    {"tag": "add_portfolio",
+      "patterns": ["Add stock to my portfolio", "Can I add stock to my portfolio"],
+      "responses": ["Adding stock"],
+      "context_set": ""
+    },
+    {"tag": "remove_portfolio",
+      "patterns": ["Remove a stock from portfolio", "Remove a stock", "Remove a stock from my portfolio"],
+      "responses": ["Removing stock"],
+      "context_set": ""
+    },
+    {"tag": "stock_price",
+      "patterns": ["nonsense"],
+      "responses": ["I want to know the price of a stock!", "Show me the price of a stock?!"],
+      "context_set": ""
+    },
+    {"tag": "portfolio_worth",
+      "patterns": ["How much is my portfolio worth?", "What is the value of my portfolio"],
+      "responses": ["Portfolio worth"],
+      "context_set": ""
+    },
+    {"tag": "portfolio_gains",
+      "patterns": ["How is my portfolio performing?", "How are my gains doing in my portfolio"],
+      "responses": ["Portfolio gains"],
+      "context_set": ""
+    },
+    {"tag": "bye",
+      "patterns": ["bye", "Goodbye", "I have to go", "End"],
+      "responses": ["Goodbye:)!"],
+      "context_set": ""
+    }
+  ]
+  }
